@@ -14,6 +14,7 @@
 		485D6DAA2B7E9FF2005FCAAA /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485D6DA92B7E9FF2005FCAAA /* Metal.framework */; };
 		485D6DAC2B7E9FFA005FCAAA /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485D6DAB2B7E9FFA005FCAAA /* MetalKit.framework */; };
 		485D6DB02B7EAA8C005FCAAA /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 485D6DAF2B7EAA8C005FCAAA /* Renderer.m */; };
+		485D6DB32B7FDA32005FCAAA /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 485D6DB22B7FDA32005FCAAA /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		485D6DAB2B7E9FFA005FCAAA /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		485D6DAE2B7EAA3D005FCAAA /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
 		485D6DAF2B7EAA8C005FCAAA /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
+		485D6DB12B7FD9EE005FCAAA /* ShaderData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderData.h; sourceTree = "<group>"; };
+		485D6DB22B7FDA32005FCAAA /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				485D6DA22B7E9ED5005FCAAA /* MetalPlaygroundObjC.entitlements */,
 				485D6DAE2B7EAA3D005FCAAA /* Renderer.h */,
 				485D6DAF2B7EAA8C005FCAAA /* Renderer.m */,
+				485D6DB12B7FD9EE005FCAAA /* ShaderData.h */,
+				485D6DB22B7FDA32005FCAAA /* Shaders.metal */,
 			);
 			path = MetalPlaygroundObjC;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				485D6D9A2B7E9ED4005FCAAA /* ViewController.m in Sources */,
 				485D6DA12B7E9ED5005FCAAA /* main.m in Sources */,
 				485D6D972B7E9ED4005FCAAA /* AppDelegate.m in Sources */,
+				485D6DB32B7FDA32005FCAAA /* Shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

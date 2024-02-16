@@ -22,7 +22,7 @@
     
     [window center];
     window.title = @"Objective-C Metal Playground";
-    window.contentViewController = [[ViewController alloc] init];
+    window.contentViewController = [ViewController new];
     [window makeKeyAndOrderFront:nil];
 }
 
